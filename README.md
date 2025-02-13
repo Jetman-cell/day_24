@@ -3,7 +3,7 @@
 //https://www.mycompiler.io/view/A6djGkFzeok
 ------------------------
 const toDoList = {
-  list: [
+list: [
 {name: 'Сделать зарядку', status: 'To Do', priority: 'low'},
 {name: 'Написать код', status: 'In progress', priority: 'high'},
 {name: 'Прочитать книгу', status: 'Done', priority: 'medium'},
