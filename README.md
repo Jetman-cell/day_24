@@ -1,6 +1,7 @@
 # day_24
 // TODO-лист для задач
 //https://www.mycompiler.io/view/A6djGkFzeok
+------------------------
 const toDoList = {
   list: [
 {name: 'Сделать зарядку', status: 'To Do', priority: 'low'},
