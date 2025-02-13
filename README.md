@@ -1,9 +1,8 @@
 # day_24
-// TODO-лист для задач
-//https://www.mycompiler.io/view/A6djGkFzeok
-------------------------
+    // TODO-лист для задач
+-----------    
 const toDoList = {
-list: [
+  list: [
 {name: 'Сделать зарядку', status: 'To Do', priority: 'low'},
 {name: 'Написать код', status: 'In progress', priority: 'high'},
 {name: 'Прочитать книгу', status: 'Done', priority: 'medium'},
@@ -12,7 +11,7 @@ list: [
 ],
 
   showList () {
-     console.log('СПИСОК ЗАДАЧ: название, статус, приоритет');
+     console.log('Список задач: название, статус, приоритет');
          this.list.forEach(task => {
           console.log(`'${task.name}':'${task.status}':'${task.priority}'`)
       });
@@ -39,8 +38,7 @@ list: [
         console.log(`Задача '${taskName}' не найдена!`);
       }
     }
-}
-
+};
 toDoList.showList();
 toDoList.addTask('Купить продукты', 'To Do', 'medium');
 toDoList.addTask('Выучить 10 английских слов', 'To Do', 'high');
